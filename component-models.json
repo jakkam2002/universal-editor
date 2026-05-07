@@ -233,5 +233,54 @@
         "value" : ""
       }
     ]
+  },
+  {
+    "id" : "bhasaka-header",
+    "fields" : [
+      {
+        "component" : "reference",
+        "name" : "logo",
+        "label" : "Logo",
+        "valueType" : "string"
+      },
+      {
+        "component" : "text",
+        "name" : "logoAlt",
+        "label" : "Logo Alt Text",
+        "valueType" : "string"
+      },
+      {
+        "component" : "multifield",
+        "name" : "navItems",
+        "label" : "Navigation Items",
+        "valueType" : "object[]",
+        "fields" : [
+          {
+            "component" : "text",
+            "name" : "label",
+            "label" : "Nav Label",
+            "valueType" : "string"
+          },
+          {
+            "component" : "text",
+            "name" : "url",
+            "label" : "Nav URL",
+            "valueType" : "string"
+          }
+        ]
+      },
+      {
+        "component" : "text",
+        "name" : "ctaLabel",
+        "label" : "CTA Label",
+        "valueType" : "string"
+      },
+      {
+        "component" : "text",
+        "name" : "ctaUrl",
+        "label" : "CTA Url",
+        "valueType" : "string"
+      }
+    ]
   }
 ]
